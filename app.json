@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/posts/post",
+    "pages/movies/movies",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/posts/post-detail/post-detail",
+    "pages/movies/more-movie/more-movie",
+    "pages/map/map",
+    "pages/userback/userback"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#bd7949"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/posts/post",
+        "text": "音乐",
+        "iconPath": "images/tab/音乐1.png",
+        "selectedIconPath": "images/tab/音乐2.jpg"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "images/tab/电影1.png",
+        "selectedIconPath": "images/tab/电影2.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath": "images/tab/地图1.png",
+        "selectedIconPath": "images/tab/地图2.png"
+      },
+      {
+        "pagePath": "pages/userback/userback",
+        "text": "评价",
+        "iconPath": "images/tab/评价1.png",
+        "selectedIconPath": "images/tab/评价2.png"
+      }
+    ]
+  }
+}

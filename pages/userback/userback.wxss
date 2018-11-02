@@ -1,0 +1,39 @@
+/* pages/userback/userback.wxss */
+page{
+  background-color: #e39e6f;
+}
+
+.Input{
+  background-color: #e59762;
+}
+.user-container{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.placeholderClass{
+  color:#d1804a;
+}
+
+.Text{
+  color: #be713b;
+  font-family: MicroSoft Yahei;
+  font-size: 25rpx;
+  margin-top: 40rpx;
+}
+
+.TextTitle{
+  color: #be713b;
+   margin-top: 40rpx;
+   margin-bottom: 10rpx;
+    text-align: center;
+}
+
+.Button{
+  margin-top: 40rpx;
+  text-align: center;
+  
+  
+  
+}

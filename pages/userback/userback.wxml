@@ -1,0 +1,29 @@
+<!--pages/userback/userback.wxml-->
+<form bindsubmit='formSubmit'>
+  <view class='user-container'>
+
+    <view>
+      <view class='TextTitle'>您的昵称</view>
+      <input  name='昵称'  class='Input' type='text' placeholder='例如空空' placeholder-class='placeholderClass'></input>
+    </view>
+    <view>
+      <view class='TextTitle'>项目评分</view>
+      <view class='Text'>文章</view>
+      <slider name='文章' min="0" max="100" show-value block-size='18' activeColor='#c35d17' backgroundColor='#f5c3a1' block-color='#c35d17' />
+      <view class='Text'>豆瓣</view>
+      <slider name='豆瓣' min="0" max="100" show-value='true' block-size='18' activeColor='#c35d17' backgroundColor='#f5c3a1' block-color='#c35d17' />
+      <view class='Text'>地图</view>
+      <slider name='地图' min="0" max="100" show-value='true' block-size='18' activeColor='#c35d17' backgroundColor='#f5c3a1' block-color='#c35d17' />
+    </view>
+
+    <view class='TextTitle'>您的建议</view>
+    
+      <textarea  name='建议' placeholder='请输入您的建议或评价' placeholder-class='placeholderClass' style='background-color: #e59762;height: 5em;  width:100%;' />
+    
+
+
+    <view class='Button'>
+      <button size='mini' type='warn' formType="submit">提交</button>
+    </view>
+  </view>
+</form>
